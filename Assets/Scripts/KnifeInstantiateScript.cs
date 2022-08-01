@@ -4,15 +4,25 @@ using UnityEngine;
 
 public class KnifeInstantiateScript : MonoBehaviour
 {
+    
+    [SerializeField] GameObject _knifeLeft,_knifeRight;
+    
     [SerializeField] Transform _knifeSpawner;
-    [SerializeField] GameObject _knife;
+  
 
+    
     public void KnifeLeftInstantiate() 
     {
-        Instantiate(_knife, _knifeSpawner, _knifeSpawner);
-    }
+        
+        Instantiate(_knifeLeft, _knifeSpawner);
+        
+        
+    } 
     public void KnifeRightInstantiate() 
     {
         
+        Instantiate(_knifeRight, _knifeSpawner);
+        
     }
+
 }
