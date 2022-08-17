@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 4873153573178075342}
   - component: {fileID: 3473783484019282568}
   - component: {fileID: 437264688892815983}
+  - component: {fileID: 1971658049}
   m_Layer: 0
   m_Name: KnivLeft
   m_TagString: Knive
@@ -175,3 +176,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23c7c03d0189a894197349ef8fb22d0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &1971658049
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3080772908648397223}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 90c090ffa86021741acbfc84e93d18a9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
